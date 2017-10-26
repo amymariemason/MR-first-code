@@ -26,7 +26,7 @@ inputfile<- '//me-filer1/home$/am2609/My Documents/Data/6150_3.assoc.tsv'
 outputfile<- '//me-filer1/home$/am2609/My Documents/Programs/Amy 1/Output/6150_3subset.Rda'
 
 # logfile 
-logfile<-"\\\\me-filer1/home$/am2609/My Documents/Programs/Amy 1/Logs/6150_3log"
+logfile<-"\\\\me-filer1/home$/am2609/My Documents/Programs/Amy 1/Logs/6150_3log.log"
 
 
 # import 43 variants as table
