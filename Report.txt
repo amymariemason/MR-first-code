@@ -1,0 +1,90 @@
+There are a total of   9  variants are missing from the input data 
+
+
+chr6:160543317   : allele frequency of 0.0003970
+chr6:160831796   : allele frequency of 0.0005022
+chr6:160966559   : allele frequency of 0.002122
+chr6:160493099   : allele frequency of 0.001160
+chr6:160899049   : allele frequency of 0.04097
+chr6:161011999   : allele frequency of 0.0009720
+chr6:161032800	 : allele frequency of 0.01182
+chr6:161255668   : allele frequency of 3.236e-5
+chr6:161031132   : allele frequency of 0.0007764
+
+
+
+# 1) 20002_1067 (peripheral vascular disease self report)
+
+Inverse-variance weighted method
+(variants correlated, random-effect model)
+
+Number of Variants : 34 
+
+------------------------------------------------------------------
+ Method Estimate Std Error 95% CI       p-value
+    IVW    0.000     0.000 0.000, 0.000   0.072
+------------------------------------------------------------------
+Residual standard error =  1.050 
+Heterogeneity test statistic = 36.4019 on 33 degrees of freedom, (p-value = 0.3133)
+
+
+# 2)  I73 (reported by hospital/ICD code).
+
+Inverse-variance weighted method
+(variants correlated, random-effect model)
+
+Number of Variants : 34 
+
+------------------------------------------------------------------
+ Method Estimate Std Error 95% CI       p-value
+    IVW    0.000     0.000 0.000, 0.000   0.000
+------------------------------------------------------------------
+Residual standard error =  0.937 
+Residual standard error is set to 1 in calculation of confidence interval when its estimate is less than 1.
+Heterogeneity test statistic = 28.9757 on 33 degrees of freedom, (p-value = 0.6679)
+
+#		3) I64 (stroke, not reported as haemorrhagic)
+
+Inverse-variance weighted method
+(variants correlated, random-effect model)
+
+Number of Variants : 34 
+
+------------------------------------------------------------------
+ Method Estimate Std Error 95% CI       p-value
+    IVW    0.000     0.000 0.000, 0.000   0.006
+------------------------------------------------------------------
+Residual standard error =  0.934 
+Residual standard error is set to 1 in calculation of confidence interval when its estimate is less than 1.
+Heterogeneity test statistic = 28.7994 on 33 degrees of freedom, (p-value = 0.6764)
+
+
+#		4) 20002_1081 (stroke, self-report), and 
+
+Inverse-variance weighted method
+(variants correlated, random-effect model)
+
+Number of Variants : 34 
+
+------------------------------------------------------------------
+ Method Estimate Std Error 95% CI       p-value
+    IVW    0.000     0.000 0.000, 0.000   0.019
+------------------------------------------------------------------
+Residual standard error =  0.964 
+Residual standard error is set to 1 in calculation of confidence interval when its estimate is less than 1.
+Heterogeneity test statistic = 30.6578 on 33 degrees of freedom, (p-value = 0.5842)
+
+
+#		5) 6150_3 (stroke reported by doctor).
+
+Inverse-variance weighted method
+(variants correlated, random-effect model)
+
+Number of Variants : 34 
+
+------------------------------------------------------------------
+ Method Estimate Std Error 95% CI       p-value
+    IVW    0.000     0.000 0.000, 0.000   0.007
+------------------------------------------------------------------
+Residual standard error =  1.014 
+Heterogeneity test statistic = 33.9565 on 33 degrees of freedom, (p-value = 0.4213)

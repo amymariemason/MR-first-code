@@ -20,13 +20,13 @@ rm(list = ls())
 library(data.table)
 
 # input file (large data files)
-inputfile<- '//me-filer1/home$/am2609/My Documents/Data/6150_3.assoc.tsv'
+inputfile<- '//me-filer1/home$/am2609/My Documents/Data/I73.assoc.tsv'
 
 # name output file
-outputfile<- '//me-filer1/home$/am2609/My Documents/Programs/Amy 1/Output/6150_3subset.Rda'
+outputfile<- '//me-filer1/home$/am2609/My Documents/Programs/Amy 1/Output/I73subset.Rda'
 
 # logfile 
-logfile<-"\\\\me-filer1/home$/am2609/My Documents/Programs/Amy 1/Logs/6150_3log.log"
+logfile<-"\\\\me-filer1/home$/am2609/My Documents/Programs/Amy 1/Logs/I73log.log"
 
 
 # import 43 variants as table
@@ -76,7 +76,7 @@ save(output, file=outputfile)
 # create log file 
 sink(logfile, append=FALSE, split=TRUE)
 #add comments with cat()
-writeLines("This log file is showing which variants are missing from the 6150_3 tsv file")
+writeLines("This log file is showing which variants are missing from the I73 tsv file")
 
 # create record of missing variants
 cat("There are a total of  ", num_er, " variants are missing from the input data \n")
