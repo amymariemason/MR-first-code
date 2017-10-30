@@ -1,5 +1,5 @@
 
- This log file is showing working on the merge and mr calculations with  20002_1067  file 
+ This log file is showing working on the merge and mr calculations with  I73  file 
 
 This shows an error if variants missing compared to outcome 
 
@@ -15,7 +15,8 @@ Number of Variants : 34
 
 ------------------------------------------------------------------
  Method Estimate Std Error 95% CI       p-value
-    IVW    0.000     0.000 0.000, 0.000   0.072
+    IVW    0.000     0.000 0.000, 0.000   0.000
 ------------------------------------------------------------------
-Residual standard error =  1.050 
-Heterogeneity test statistic = 36.4019 on 33 degrees of freedom, (p-value = 0.3133)
+Residual standard error =  0.937 
+Residual standard error is set to 1 in calculation of confidence interval when its estimate is less than 1.
+Heterogeneity test statistic = 28.9757 on 33 degrees of freedom, (p-value = 0.6679)
