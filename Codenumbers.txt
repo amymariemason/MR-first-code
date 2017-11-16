@@ -23,9 +23,12 @@ I35
 heart failure
 I50
 
+<<<<<<< HEAD
 pulmonary embolism
 I26
 
+=======
+>>>>>>> a6fa0b830270b8b8e36fc0425fb01a44e4a9448e
 *****************ICD9
 
  ischemic stroke
@@ -65,6 +68,7 @@ heart failure
   
 ***************************************** non-HES data
 
+<<<<<<< HEAD
 
 
 *****************************platelet traits and renal function 
@@ -80,3 +84,5 @@ creatinine : biobank 30510
 potassium: biobank 30520
 sodium: biobank 30530
 
+=======
+>>>>>>> a6fa0b830270b8b8e36fc0425fb01a44e4a9448e
