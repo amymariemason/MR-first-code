@@ -1,0 +1,82 @@
+ICD10/IC9 codes
+
+******************ICD10
+
+ subarachnoid hemorrhage
+I60 - Subarachnoid haemorrhage
+ intracerebral hemorrhage
+I61 -  Intracerebral haemorrhage
+I62
+ ischemic stroke
+I63 - Cerebral infarction
+I64 - Stroke, not specified as haemorrhage or infarction
+
+(based off https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4546158/ ) 
+
+
+PVD
+I73 - Other peripheral vascular diseases
+
+aortic-valve calcification and stenosis
+I35
+
+heart failure
+I50
+
+pulmonary embolism
+I26
+
+*****************ICD9
+
+ ischemic stroke
+ 434 - Occlusion of cerebral arteries
+ 436 - Acute but ill-defined cerebrovascular disease
+ 
+ subarachnoid hemorrhage
+430 - Subarachnoid haemorrhage
+
+ intracerebral hemorrhage
+431 - Intracerebral haemorrhage
+
+(based off http://stroke.ahajournals.org/content/strokeaha/45/11/3219.full.pdf )
+
+PVD
+443 - Other peripheral vascular disease
+
+aortic-valve calcification and stenosis
+424_3
+
+heart failure
+428
+
+
+*********************biobank self report
+
+"Vascular/heart problems diagnosed by doctor; stroke": 6150_3
+  
+"Non-cancer illness code, self-reported"		
+  20002_1067	peripheral vascular disease
+  20002_1076	heart failure/pulmonary odema
+  20002_1081	stroke
+  20002_1086	subarachnoid haemorrhage
+  20002_1490	aortic stenosis
+  
+  (from http://biobank.ctsu.ox.ac.uk/crystal/coding.cgi?id=6)
+  
+***************************************** non-HES data
+
+
+
+*****************************platelet traits and renal function 
+
+(complete)
+platelet count: biobank 30080
+platelet crit: biobank 30090
+mean platelet volume: biobank 30100
+platelet width distribution 30110
+
+(accuring)
+creatinine : biobank 30510
+potassium: biobank 30520
+sodium: biobank 30530
+
