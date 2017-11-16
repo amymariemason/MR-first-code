@@ -23,12 +23,10 @@ I35
 heart failure
 I50
 
-<<<<<<< HEAD
 pulmonary embolism
 I26
 
-=======
->>>>>>> a6fa0b830270b8b8e36fc0425fb01a44e4a9448e
+
 *****************ICD9
 
  ischemic stroke
