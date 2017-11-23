@@ -16,6 +16,7 @@
 #		4) 20002_1081 (stroke, self-report), and 
 #		5) 6150_3 (stroke reported by doctor).
 
+# VERSION 1: INPUT DATASET IS UNSUITABLE AS USING LINEAR REGRESSION NOT LOGISTIC
 
 rm(list=ls())
 setwd("C://Users/am2609/Dropbox (Personal)/lpamaster/")
@@ -65,8 +66,7 @@ lpa <- lpa[(lpa$variantID %in% fsteps$snp),]
 lpa$chr.pos <- paste0("chr", lpa$chr, ":", lpa$pos)
 lpa$snp <- lpa$chr.pos; lpa$a1 <- lpa$allele1; lpa$a2 <- lpa$allele2
 lpa <- lpa[, c("variantID", "snp", "chr.pos", "chr", "pos" , "a1", "a2", "beta", "se")]
-#CHECK WITH STEVE: Assumption is a1 is the "effect allele", and that is the same as "alternate allele" in my data
-
+#Steve says: A1 is the effect allele
 
 
 
@@ -80,6 +80,8 @@ lpa <- lpa[, c("variantID", "snp", "chr.pos", "chr", "pos" , "a1", "a2", "beta",
 #beta	linear regression beta coefficient
 #se	linear regression standard error
 #pval	linear regression p-value
+
+#steve says: reference allele is the effect allele
 
 # extract alleles
 seperates<- read.table(text = as.character(outcome$variant), sep = ":")
